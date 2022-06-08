@@ -16,7 +16,6 @@ describe '#admin_login' do
     expect(admin_login('admin', 'sudo')).to eq('Access denied')
     expect(admin_login('sudo', 'pls')).to eq('Access denied')
   end
-
 end
 
 describe '#hows_the_weather' do
